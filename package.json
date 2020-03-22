@@ -1,0 +1,22 @@
+{
+  "name": "giffleball",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "npm": "^6.14.2"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "eleventy-plugin-nesting-toc": "^1.2.0",
+    "markdown-it": "^10.0.0",
+    "markdown-it-anchor": "^5.2.5"
+  }
+}
