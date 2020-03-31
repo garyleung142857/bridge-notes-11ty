@@ -24,24 +24,36 @@ var parse_hand = function(str){
     return '<table class="hand">' + s.join("") + "</table>"
 }
 
-var parse_opts = function(str){
+var parse_opts = function(str, tblcls){
     var s = []
     var arr = str.split('\n')
     arr.forEach(row => {
         if (typeof row !== "undefined" && row.length > 0){
-            var r = row.split(":", 2)
-            if (r.length > 1){
-                s.push(
-                    '<tr><td>' + escstr(r[0], "!") + '</td><td>' + escstr(r[1], "!") + '</td></tr>'
-                )
+            var r = row.split(":")
+            if (r[0][0] === "@"){
+                s.push('<tr class="importantCall">')
+                r[0] = r[0].substring(1)
+            } else if (r[0][0] === "%"){
+                s.push('<tr class="unimportantCall">')
+                r[0] = r[0].substring(1)
+            } else if (r[0][0] === "^"){
+                s.push('<tr class="annotatedCall">')
+                r[0] = r[0].substring(1)
             } else {
-                s.push(
-                    '<tr><td colspan=2>' + escstr(r[0], "!") + '</td></tr>'
-                )
+                s.push('<tr class="usualCall">')
             }
+            if (r.length > 1){
+                // s[s.length - 1] += '<td>' + escstr(r[0], "!") + "&emsp;" + '</td><td>' + escstr(r[1], "!") + '</td></tr>'
+                for (let i = 0; i < r.length; i++) {
+                    s[s.length - 1] += '<td>' + escstr(r[i], "!") + '&ensp;' + '</td>'
+                }
+            } else {
+                s[s.length - 1] += '<td colspan=2>' + escstr(r[0], "!") + '</td></tr>'
+            }
+            s[s.length - 1] += '</tr>'
         }
     });
-    return '<table class="opts">' + s.join("") + "</table>"
+    return `<table class=${tblcls}>` + s.join("") + "</table>"
 }
 
 var bid4 = function(str){
@@ -64,4 +76,8 @@ var bid2 = function(str){
     return '<table class="bidSeq">' + s.join("") + '</table>'
 }
 
-module.exports = {escstr, parse_hand, parse_opts, bid4, bid2}
+var centerBlock = function(str, cls){
+    return `<div class="${cls}">${str}</div>`
+}
+
+module.exports = {escstr, parse_hand, parse_opts, bid4, bid2, centerBlock}

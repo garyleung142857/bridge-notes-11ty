@@ -8,10 +8,19 @@
     <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Noto Sans HK' rel='stylesheet'>
   </head>
-  <body class="content">
-    <aside>
-      {{{ toc content }}}
-    </aside>
-    {{{content}}}
+  <body>
+    <div class="content">
+      <div class="contentGrid">
+        <div class="mainContent">
+          {{{content}}}
+        </div>
+        <div class="sidebar">
+          <div>
+            <a href="/">Home</a>
+            {{{ toc content }}}
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

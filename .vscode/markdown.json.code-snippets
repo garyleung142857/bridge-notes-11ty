@@ -1,0 +1,12 @@
+{
+	"Paired Mustache": {
+		"scope": "markdown, handlebars, md, hbs",
+		"prefix": "pair",
+		"body": [
+			"{{#$1}}",
+			"$2",
+			"{{/$1}}"
+		],
+		"description": "Add paired helpers to markdown / handlebar files."
+	}
+}
