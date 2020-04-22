@@ -2,7 +2,7 @@
 layout: postlayout.hbs
 title: Hybrid System
 templateEngineOverride: hbs, md
-tags: system
+tags: system (hidden)
 ---
 
 # Hybrid System
