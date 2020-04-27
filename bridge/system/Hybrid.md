@@ -35,7 +35,7 @@ Openings:
 
 *   5542 system. 1!D promise unbal
 *   1!C / !D are natural non-forcing. 1!H / 1!S are natural and forcing (13+).
-*   1!N / 2!N = 15-17 / 20-21. Can have 5-card major
+*   1!N / 2!N = (11)12-14 / 20-21. Can have 5-card major
 *   2!C is intermediate 5+4+ majors or Any FG (no 5-card major)
 *   2!D is either a !S preempt, or intermediate !S, or 22-23 Bal
 *   2!H is 5+!H unbal intermediate. Not 5422. Not with 4+!S
@@ -53,11 +53,11 @@ Methods:
 {{#opts}}
 First and second seat
 Pass: Non descriptive
-1!C: 11-21 4+!C or 12-14 / 18-19 Bal
+1!C: 11-21 4+!C or 15-19 Bal
 1!D: 11-21 4+!D unbal
 1!H: 13+ 5+!H.
 1!S: 13+ 5+!S.
-1!N: 15-17 Bal
+1!N: (11)12-14 Bal
 2!C: 9-12 5+4+MM or FG no 5-card Major
 2!D: 6-12 6+!S or 22-23 Bal
 2!H: 9-12 5+!H unbal no 4!S
@@ -89,7 +89,9 @@ Others: Same as first or second (see pass)
 
 ## 1!N
 
-A variation to Heeman
+A variation to Heeman.
+
+May have 5-card major when minimum. 13-14 5M332 will open 1!H/!S.
 
 {{#opts}}
 1!N - ?
@@ -236,10 +238,10 @@ Pass: (After 2!N) To play
 
 {{#opts}}
 1!N - 2!S; 2!N/3!C - 3!D
-3!H: 4- controls. Responder bids 3!S to ask. 3!N shows 3- controls and 4!C+ shows 4 controls and the lowest 4+ suit.
-3!S: 5 controls
-3!N: 6 controls
-4!X: 7+ controls with X as the lowest 4+ suit.
+3!H: 3- controls. Responder bids 3!S to ask. 3!N shows 2- controls and 4!C+ shows 3 controls and the lowest 4+ suit.
+3!S: 4 controls
+3!N: 5 controls
+4!X: 6+ controls with X as the lowest 4+ suit.
 {{/opts}}
 
 Then, the development follows the rules below:
@@ -510,7 +512,7 @@ Help suit invite. 2M+1 is slam interest, asking partner's good 5+ suits.
 1!H - 2!H; ?
 @2!S: Slam interest. Ask for short suit.
 2!N: Help suit game try in !S
-3!C/!D. Help suit game try in !C/!D
+3!C/!D: Help suit game try in !C/!D
 %3!H: Invite. Ask for good trumps
 3!S/4!C/!D: Splinter
 %3!N: RKCB
@@ -887,7 +889,7 @@ and denies 5+ !H/!S, but not denying 5=!D.
 1!D: (3)6-12(14) 4+!H
 1!H: (3)6-12(14) 4+!S
 1!S: 6-12(14) No 4-card majors
-1!N: Game forcing relay. Any shape. Not 15-18 balanced
+1!N: Game forcing relay. Any shape. Not 12-14 balanced
 2!C: 12-14 Balanced. Can have 4-card majors, or weak !D
 2!D: (3)6-8 Long major
 2!H: (3)6-10 5=!S 4+!H
@@ -905,12 +907,12 @@ and denies 5+ !H/!S, but not denying 5=!D.
 
 {{#opts}}
 1!C - 1!D; ?
-@1!H: 12-14 Balanced 2-3!H or 11-15 5+!C 3=!H 3-!S. Non-forcing
-1!S: 11-18 5+!C 4+!S. May have 3=!H. F1R
-@1!N: Gazzilli. 11-15 5+!C 4+!H or 16+ Many hands
+1!H: 11-15 5+!C 3=!H 3-!S unbal or 15-17 4=!H Bal or 16+ Many hands. Forcing 
+1!S: 11-18 5+!C 4+!S.  May have 3=!H. F1R
+1!N: 15-17 Balanced. 2-3!H
 2!C: 11-15. 5+!C 2-!H
 2!D: 6+!C 4+!D Good suits. F1R
-2!H: 12-14 4=!H Balanced / =4414
+2!H: 11-15 4=!H unbal
 2!S: 6+!C 4+!S Good suits. Game forcing
 2!N: 16+ 4=!H.
 3!C: 6+!C Good suit. Based on tricks, not points
@@ -921,17 +923,36 @@ The above is similar for 1!C - 1!H.
 
 {{#opts}}
 1!C - 1!D; 1!H - ?
-Pass: Tatical. Usually less than 6-points and have 5 cards
-1!S: Natural. 6-12. F1R
-1!N: Natural. NF
-2!C/!D: Natural 6-10 4=!H 5+!C/!D
-2!H: Natural 6-10 5+!H
-2!S: 10+. Artificial invite+
-2!N: 10-12. Invite. Semi-bal
-3!C+: Natural FG
+1!S/!N/2!C/!H: Natural. 6-7. NF
+2!D: 8+
 {{/opts}}
 
-The above is similar for 1!C - 1!H; 1!S Except 2!H is 10+ Artificial invite.
+
+{{#opts}}
+1!C - 1!D; 1!H - 1!S/1!N/2!C; ?
+Pass: To play
+1!N/2!C: 11-15 5+!C 3=!H
+2!H: 15-17 4=!H Bal
+2!N: 18-19 Bal
+Others: Natural 16+
+{{/opts}}
+
+
+{{#opts}}
+1!C - 1!D; 1!H - 2!H; ?
+Pass: To play
+2!N: 18-19 Bal
+3!H: 15-17 4=!H Bal
+Others: Natural 16+
+{{/opts}}
+
+
+{{#opts}}
+1!C - 1!D; 1!H - 2!D; ?
+2!H: 11-15 5+!C 3=!H
+2!N: 15-17 4=!H Bal
+Others: 16+ Nat
+{{/opts}}
 
 
 {{#opts}}
@@ -948,37 +969,21 @@ The above is similar for 1!C - 1!H; 1!S Except 2!H is 10+ Artificial invite.
 
 {{#opts}}
 1!C - 1!D; 1!N - ?
-2!C: 6-7 2+!C no 5-card !H
-2!D: 8+. FG opposite 16+
-2!H: 6-7. 5+!H
-2!S: 6-7 =4441
-2!N: 6-7 4=!H 5+!D 1-!C
+2!C: Invite+. Usually no 5+!H. 2!D show max and FG. Other bids are min. Natural continuation
+2!D: Transfer to 2!H. 5+!H. Any strength. Responder can pass to play, rebid 2!N to invite, or bid 3X to FG.
+2!H: 5=!H 4=!S 6-7
+2!N: Puppet to 3!C. Weak in !C or !D.
+3!C/!D: 5+!C/!D 4=!H. FG
+3!H: 4-4 Major. COG
 {{/opts}}
 
 
 {{#opts}}
-1!C - 1!H; 1!S - ?
-Similar to above except
-2!H: 6-7 =4351 or =4360
+1!C - 1!H; 1!N - ?
+Similar as above except
+2!D: 5-5 majors. 6-7
+2!H: Transfer to 2!S
 {{/opts}}
-
-{{#opts}}
-1!C - 1!D; 1!N - 2!C; ?
-Pass: To play
-2!D: 16-18 5+!C 3=!H
-2!H: 11-14 5+!C 4=!H To play
-2!S: 16-18 Long !C suit
-2!N: 18-19 Balanced
-3!C+: 19+ Natural FG
-{{/opts}}
-
-{{#opts}}
-1!C - 1!D; 1!N - 2!D; ?
-2!H: 11-14 5+!C 4=!H
-2!S+: 16+ Natural
-{{/opts}}
-
-After 1!C - 1!H; 1!N - 2!D, 2!H is the 19+ Artificial bid. After 1!C - 1!H; 1!N - 2!D; 2!H - 2!S, 2!N shows !H.
 
 
 ### 1!S no Major
