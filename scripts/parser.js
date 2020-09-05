@@ -1,10 +1,10 @@
 var suits = ["S", "H", "D", "C", "N"]
 var suitsyms = [
-    '<span class="spsymbol"> &#9824; </span>',
-    '<span class="hesymbol"> &#9829; </span>',
-    '<span class="disymbol"> &#9830; </span>',
-    '<span class="clsymbol"> &#9827; </span>',
-    '<span class="ntsymbol"> N </span>'
+    '<span class="spsymbol">&#9824;</span>',
+    '<span class="hesymbol">&#9829;</span>',
+    '<span class="disymbol">&#9830;</span>',
+    '<span class="clsymbol">&#9827;</span>',
+    '<span class="ntsymbol">N</span>'
 ]
 
 var escstr = function(s, escchar){

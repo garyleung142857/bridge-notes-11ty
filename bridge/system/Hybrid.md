@@ -2,7 +2,7 @@
 layout: postlayout.hbs
 title: Hybrid System
 templateEngineOverride: hbs, md
-tags: system (hidden)
+tags: system
 ---
 
 # Hybrid System
@@ -154,8 +154,8 @@ Pass: (After 3!C/!D) Weak in both minors. To play
 {{#opts}}
 1!N - 2!C; 2!D - 3!D; ?
 3!H: Set major as trump. Relay
-%3!S: Undefined
-3!N: Doubleton major. Misfit
+3!S: Doubleton major. Extra
+3!N: Doubleton major. Min
 {{/opts}}
 
 
@@ -1028,7 +1028,7 @@ Pass: To play
 
 {{#opts}}
 1!C - 1!N; ?
-2!C: Balanced. 12-14 or 18-19
+2!C: Balanced. Any strength
 2!D: 5+!C 4+!H or 4441!D or 5440. Puppet to 2!H
 2!H: 5+!C 4+!D
 2!S: 5+!C 4+!S with extra or 5422 or freaks. 2!N relay
@@ -1192,16 +1192,16 @@ Pass: Preempt in !C
 3!D: 5=!D. Min FG
 3!H: 6+!C. Min FG
 3!S: 6+!D. Min FG
-3!N: 25-26 Bal
+3!N: 24-25 Bal
 {{/opts}}
 
 
 {{#opts}}
 2!C - 2!D; 2!N - ?
-3!C: 0-1 or 4-5 Control or 0-5 Bal
+3!C: 0-1 or 3+ Control or 0-5 Bal
 3!D: 9+ Bal 
-3!H: 2-3 controls 5+!C unbal
-3!S: 2-3 controls 5+!D unbal
+3!H: 2 controls 5+!C unbal
+3!S: 2 controls 5+!D unbal
 3!N: 6-8 Bal
 {{/opts}}
 
@@ -1214,7 +1214,7 @@ Pass: 10-13. Majors
 3!C: 5+!C. Min FG
 3!D: 5+!D. Min FG
 3!H: 10-13 6+!H. Good suits
-3!N: 25-26 Bal
+3!N: 24-25 Bal
 {{/opts}}
 
 
@@ -1225,7 +1225,7 @@ Pass: 10-13. Majors
 3!C: 5+!C. Min FG
 3!D: 5+!D. Min FG
 3!S: 10-13 6+!S. Good suits
-3!N: 25-26 Bal
+3!N: 24-25 Bal
 {{/opts}}
 
 
